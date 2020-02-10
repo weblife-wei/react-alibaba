@@ -1,0 +1,15 @@
+.hot-text{
+    color:rgba(255,255,255,0.80);
+    padding: 10px 0;
+}
+.hot-text::before{
+    content: "";
+}
+.hot-text a{
+    color:rgba(255,255,255,0.80);
+    padding-right: 10px;
+    text-decoration: none;
+}
+.hot-text a:hover{
+    color: #F37327;
+}

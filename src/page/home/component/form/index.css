@@ -1,0 +1,15 @@
+.index-mid-box{
+    width: 1000px;
+    height: 780px;
+    position: absolute;
+    margin-left: -500px;
+    top: 0;
+    left: 50%;
+}
+.float-mid{
+    position: absolute;
+    left: 50%;
+    top: 42%;
+    margin-left: -270px;
+    margin-top: -112px;
+}

@@ -1,0 +1,11 @@
+.pic-1{
+    margin-bottom: 20px;
+}
+.show-pic{
+    display: block;
+    cursor: pointer;
+    height: 140px;
+    background: #FFFFFF;
+    box-shadow: 0 0 15px 0 rgba(31,56,88,0.08);
+    border-radius: 3px;
+}
