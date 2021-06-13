@@ -1,17 +1,18 @@
-import React, { Component } from 'react'
-import Bjimg from './component/bgimg'
-import Img from './component/img'
-import SharDow from './component/shardow'
-import Form from './component/form'
-import P from './component/p'
-import Search from './component/search'
-import Hot from './component/Hot'
-import NewPosition from './component/newPosition'
-import NewPositionList from './component/newPositionList'
-import NewPositionRightImg from './component/newPositionRightImg'
-import ScrollTopli from './component/scrollTopLi'
-import './index.css'
-import {data,rightImg,returnValue} from './data'
+import React, { Component } from 'react';
+import Bjimg from './component/bgimg';
+import Img from './component/img';
+import SharDow from './component/shardow';
+import Form from './component/form';
+import P from './component/p';
+import Search from './component/search';
+import Hot from './component/Hot';
+import NewPosition from './component/newPosition';
+import NewPositionList from './component/newPositionList';
+import NewPositionRightImg from './component/newPositionRightImg';
+import ScrollTopli from './component/scrollTopLi';
+
+import {data, rightImg, returnValue} from './data';
+
 export default class Home extends Component {
     render() {
         return (

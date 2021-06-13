@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import './index.css'
+import './index.css';
+
 export default class ScrollTopLi extends Component {
     constructor(props){
         super(props)
         this.state={
-            data:this.props.data
+            data: this.props.data
         }
-        // this.getPositionList = this.getPositionList.bind(this);
     }   
     componentDidMount(){
         this.scrollTop()

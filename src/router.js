@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {HashRouter,Route,Switch} from 'react-router-dom'
+import {HashRouter,Route,Switch,Redirect} from 'react-router-dom'
 import App from './App'
 import Admin from './admin'
 import Home from './page/home'
@@ -13,6 +13,7 @@ export default class router extends Component {
                         <Admin>
                             <Switch>
                                 <Route  path="/home" component={Home}/>
+                                <Redirect exact from='/' to="/home" />
                                 <Route component={Nomatch}/>
                             </Switch>
                         </Admin>
